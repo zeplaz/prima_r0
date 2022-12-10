@@ -1,0 +1,21 @@
+--- # style sheet for the ui menus and such
+
+# @sys.UIE.Load_Primary_UI
+
+
+#@sys.UIE.menu_bar_top
+tabs:["Info","File","configure","Close"]
+#@END
+
+#@sys.UIE.Menu_screen.main_window_UI_ctl
+
+Main_Menu:
+  -"Info":["Help_docs","Run_unit_tests", "About"]
+  -"File":["Add_new_game","Remove_game","load_script"]
+  -"Configure":["select_server","modify_game_parmz"]
+
+Game_Display:
+InfoBoxes:["Current Game Selected","Path_to_Saved_Dir"]
+Buttons:["Send_Round","Change_Game", "Load_new_path"]
+
+#@END

@@ -1,0 +1,22 @@
+--- # config file that contains yaml for the client_setup. and host
+
+
+# list of games to connect for
+
+#@ sys.MPC.loaded_moduals
+
+"Loaded_software": ["rev_un_seige", "unitTests"]
+
+#@END
+
+#@sys.data.server_data
+server_connect:
+  hostname : None
+  port : 0
+  username : None
+#@END
+
+#@sys.data.path_list
+
+"file_paths_for_savegames": []
+#@END
